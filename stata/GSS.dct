@@ -1,0 +1,13 @@
+infile dictionary {
+    _column(1)    numeric                               YEAR   %20f  "Gss year for this respondent                       "
+   _column(21)    numeric                              WWWHR   %20f  "Www hours per week"
+   _column(41)    numeric                            TVHOURS   %20f  "Hours per day watching tv"
+   _column(61)    numeric                           CHLDIDEL   %20f  "Ideal number of children"
+   _column(81)    numeric                               SIZE   %20f  "Size of place in 1000s"
+  _column(101)    numeric                               EDUC   %20f  "Highest year of school completed"
+  _column(121)    numeric                                AGE   %20f  "Age of respondent"
+  _column(141)    numeric                             CHILDS   %20f  "Number of children"
+  _column(161)    numeric                               HRS1   %20f  "Number of hours worked last week"
+  _column(181)    numeric                                ID_   %20f  "Respondent id number"
+  _column(201)      float                            CONRINC   %20f  "Respondent income in constant dollars"
+}
